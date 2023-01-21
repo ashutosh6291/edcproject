@@ -1,0 +1,100 @@
+
+  
+h1.why{
+	color: white;
+	font-family: "Oswald", sans-serif;
+    font-size: 60px;
+/*	<!--text-align: center;*/
+	margin: 0 auto;
+	margin-left: 100px;
+	margin-top : 60px; 
+	margin-right: 40px;
+	
+	}
+   
+img {
+	  display: block;
+	  margin: 0 auto;
+	  margin-left : 10px;
+	  width: 200px;
+	  height: 100px;
+}
+
+
+
+/*ANIMATION*/
+
+@keyframes typing {
+  from { width: 0;}
+}
+
+
+h1.why {
+	
+  	/*font: 200% courier new;
+	width: 8.25em;*/
+	width: 33ch;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 3s steps(33),
+	           caret 1s steps(1) infinite;
+  
+}
+
+
+/*contact*/
+
+
+.scrolling-words-container {
+  display: flex;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.scrolling-words-box {
+  height: 3rem;
+  margin: auto;
+  overflow: hidden;
+}
+.scrolling-words-box ul {
+  margin: 0 0.625rem;
+  padding: 0;
+  animation: scrollUp 8s infinite;
+}
+.scrolling-words-box ul li {
+  display: flex;
+  justify-content: flex-end;
+  height: 3rem;
+  list-style: none;
+}
+
+@keyframes scrollUp {
+
+  40%, 50% {
+    transform: translateY(-40%);
+  }
+  
+}
+
+.header{
+	margin-top: 80px;
+	background-color:pink;
+	text-align:center;
+	
+}
+
+/*footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
